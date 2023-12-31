@@ -6,8 +6,15 @@
   font-family: sans-serif;
 }
 
+body {
+  background: -webkit-gradient(linear, left top, right top, from(blue), color-stop(green), to(yellow));
+  background: linear-gradient(to right, blue, green, yellow);
+}
+
 .form-wrapper {
+  background-color: white;
   width: 600px;
+  padding: 15px;
   margin: 100px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,7 +35,7 @@ input, select, button {
 }
 
 .table {
-  border: 1px solid black;
+  background-color: white;
   width: 1000px;
   margin: 30px auto;
   border-collapse: collapse;
@@ -51,5 +58,19 @@ td .delate {
   color: red;
   cursor: pointer;
   margin-right: 20px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 13px;
+  border-width: 2px;
+  background: transparent;
+  width: 100%;
+  border-style: solid;
+  -o-border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+     border-image: -webkit-gradient(linear, left top, right top, from(darkblue), to(darkorchid)) 1;
+     border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
 /*# sourceMappingURL=main.css.map */

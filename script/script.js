@@ -65,8 +65,8 @@ function createRow(user, index) {
               <td>${user.car}</td>
               <td>${user.desc}</td>
               <td>
-              <span class = "update">Update</span>
-              <span data-id = "item_${user.id}" class = "delate">Delate</span>
+              <span class = "update"> <img src="./img/update.png" width="30px'  alt=""></span>
+     <span data-id = "item_${user.id}" class = "delate">  <img src="./img/delate.png" width  =" 30px' alt=""></span>
               </td>
    </tr> 
   `;
