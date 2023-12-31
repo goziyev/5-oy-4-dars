@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.form-wrapper {
+  width: 600px;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+input, select, button {
+  padding: 10px;
+}
+
+.table {
+  border: 1px solid black;
+  width: 1000px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-size: 20px;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td .update {
+  color: blue;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+td .delate {
+  color: red;
+  cursor: pointer;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=main.css.map */
